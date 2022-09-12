@@ -25,6 +25,7 @@
 #endif
 
 #ifdef PLATFORMIO
+#define DebugSerial DebugUse
 
 #ifdef DebugV
 #define debugV(a) (DebugSerial.print(a))
